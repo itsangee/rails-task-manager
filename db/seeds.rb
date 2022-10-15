@@ -2,6 +2,7 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
+4.times do
+  Task.create(title: "Studying", details: "A lot of flashcards to do", completed: true)
+end
 #   Character.create(name: "Luke", movie: movies.first)
